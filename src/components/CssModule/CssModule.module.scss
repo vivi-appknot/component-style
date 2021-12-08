@@ -1,0 +1,14 @@
+.wrapper {
+    display:flex;
+    align-items: center;
+
+    &.large {
+        @include container(10);
+        background:$blue;
+    }
+
+    .title {
+        font-size:2.5em;
+        color:$orange;
+    }
+}

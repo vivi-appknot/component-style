@@ -1,0 +1,37 @@
+.StyleTest .title {
+  font-size: 3em;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .box {
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.wrapper .box.red {
+  background: red;
+  width: 32px;
+  height: 32px;
+}
+
+.wrapper .box.blue {
+  background: blue;
+  width: 64px;
+  height: 64px;
+}
+
+.wrapper .box.yellow {
+  background: yellow;
+  width: 96px;
+  height: 96px;
+}
+
+.wrapper .box:hover {
+  background: black;
+}

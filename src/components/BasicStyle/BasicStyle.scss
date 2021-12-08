@@ -1,0 +1,36 @@
+.BasicStyle {
+    .title {
+        font-size:3em;
+    }
+
+    .wrapper {
+        display:flex;
+    
+        .box {
+            cursor:pointer;
+            transition:all 0.5s;
+    
+            &.red {
+                background:$red;
+                @include container(1);        
+            }
+            &.orange {
+                background:$orange;
+                @include container(2);        
+            }
+            &.yellow {
+                background:$yellow;
+                @include container(3);        
+            }
+            &.blue {
+                background:$blue;
+                @include container(4);        
+            }
+            &:hover {
+                background:black;
+            }
+        }
+    }
+}
+
+
